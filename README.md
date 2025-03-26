@@ -1,5 +1,5 @@
 A compreesed openvino structure of face recognition with models
-to run justmodift to your device setting and run recon.pl  whic will process names from  facial recognition and then passit on the process.sh  scritp to exec progams on events 
+to run just modify to your device setting and run recon.pl  which will process names from  facial recognition program and then pass it on to the process.sh  scripts to exec progams on events 
 
 a modified openvino facial recongnition that will process files   on facial recognition and add a face_gallery to your home folder
  - name picture like this paul-01.jpg
