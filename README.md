@@ -1,4 +1,8 @@
 A compressed openvino structure of face recognition with models
+
+ to uncompress  ->  cat recon.tar.gz.* | tar xzvf -
+
+
 to run just modify to your device setting and run recon.pl  which will process names from  facial recognition program and then pass it on to the process.sh  scripts to exec progams on events 
 
 a modified openvino facial recongnition that will process files   on facial recognition and add a face_gallery to your home folder
