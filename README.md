@@ -13,7 +13,7 @@ a modified openvino facial recongnition that will process files   on facial reco
   - echo "EVENT for Stephen"  ##  add process program  entry point
   - echo "  +60sec Timed event"  ##  times paused. process will only after so much time has elapsed
 
- but you can add in other procewssing point  such as 
+ but you can add in other processing point  such as 
  
  hour=$(/usr/bin/date +%H)
  
