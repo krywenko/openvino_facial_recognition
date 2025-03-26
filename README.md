@@ -13,5 +13,7 @@ a modified openvino facial recongnition that will process files   on facial reco
   - echo "  +60sec Timed event"  ##  times paused. process will only after so much time has elapsed
 
  but you can add in other procewssing point  such as 
+ 
  hour=$(/usr/bin/date +%H)
+ 
  if ($hours > 9 )  && ($hours < 10 )  ##then it will only process  between this time period
