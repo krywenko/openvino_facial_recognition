@@ -1,3 +1,4 @@
+A compreesed openvino structure of face recognition with models
 a modified openvino facial recongnition that will process files   on facial recognition and add a face_gallery to your home folder
  - name picture like this paul-01.jpg
    
