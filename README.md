@@ -1,7 +1,7 @@
 a modified openvino facial recongnition that will process files   on facial recognition and add a face_gallery to your home folder
  - name picture like this paul-01.jpg
    
- modify   recon.pl   with your users and  openvion setting   currently it set at MYRIAD
+ modify   recon.pl   with your users and  openvino setting   currently it set at MYRIAD
  -system("echo '0' > /dev/shm/Scnt");  ## sets the count at start for each user
  -system("echo '0' > /dev/shm/TIME_S"); ## sets epoch at 0 one for each user
  -if ( $cnt0 == 50) {  ## clears counts  after so many bulk counts  since family can have false positives due simularity this aleviats it
