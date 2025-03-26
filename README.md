@@ -16,4 +16,4 @@ a modified openvino facial recongnition that will process files   on facial reco
  
  hour=$(/usr/bin/date +%H)
  
- if ($hours > 9 )  && ($hours < 10 )  ##then it will only process  between this time period
+ if ($hours > 9 )  && ($hours < 10 )  ##then it will only process  between this time period of 9am and 10am
