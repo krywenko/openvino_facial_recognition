@@ -1,0 +1,33 @@
+#!/bin/bash
+API="API_key"
+#voice="TxGEqnHWrfWFTfGW9XjX"   #josh
+voice="LcfcDJNUP1GQjkzn1xUU"  #laura
+mkdir voice/$voice
+DIR=$(echo "voice/"$voice"/")
+echo $DIR
+string=$(echo '{ "text": "' $1 '" , "voice_settings": { "stability": 0.5, "similarity_boost": 0.5 }} ') 
+
+file=$(echo $1 | tr -d "[:space:]" |tr -d "." | tr -d "!" |tr -d "?" |tr '[:upper:]' '[:lower:]' ) 
+file=$( echo $file".mpga")
+file=$(echo $DIR$file)
+echo $file
+
+
+if [ -e $file ]
+then
+    echo "exists"
+mpg123 $file
+else
+    echo "does not exist"
+curl -X 'POST'   "https://api.elevenlabs.io/v1/text-to-speech/$voice"  -H 'accept: audio/mpeg'  -H "xi-api-key: $API"  -H 'Content-Type: application/json'  -d "$string"   > $file
+mpg123 $file
+fi
+
+
+
+
+
+
+echo $string
+#curl -X 'POST'   "https://api.elevenlabs.io/v1/text-to-speech/$voice"  -H 'accept: audio/mpeg'  -H "xi-api-key: $API"  -H 'Content-Type: application/json'  -d "$string"   > test.mpg
+#mpg123 test.mpg
