@@ -28,3 +28,7 @@ a modified openvino facial recongnition that will process files   on facial reco
 
  to use MYRIAD device you need openvino==2022.3.2  or lower  if using 
   other openvino  you have to use CPU or gpu or other device 
+
+missing  for processT.sh are the morning, afternoon, evening and  night speech files you need to create them with 49  different lines of text of different greetings or you can reduce the random line selector
+
+speak2 is my elevelabs  speech file it will cache elevenlab speech file and then use them. it points to my openwrtAI program for ai listening  when some enters the room. but you can point it other apps if you like
