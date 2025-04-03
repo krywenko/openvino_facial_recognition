@@ -31,4 +31,4 @@ a modified openvino facial recongnition that will process files   on facial reco
 
 missing  for processT.sh are the morning, afternoon, evening and  night speech files you need to create them with 49  different lines of text of different greetings or you can reduce the random line selector
 
-speak2 is my elevelabs  speech file it will cache elevenlab speech file and then use them. it points to my openwrtAI program for ai listening  when some enters the room. but you can point it other apps if you like
+speak2 is my elevelabs  speech file it will cache elevenlab speech file and then use them. it points to my openwrtAI program for ai listening  when some enters the room. but you can point it other apps if you like also for the speak elevenlabs app you need to create a voice folder..  but you can pre-test with ./speak2 " hello there"  and see if you get any errors
