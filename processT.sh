@@ -5,7 +5,8 @@ Repeat=600  ###  minium time period before a function will be repeated
  
 sp=1.33  ## Mimic
 MPC=$(mpc  | sed -e '/e:/{d;}' |sed -n '1p' | tr -d ' ')  ### checks to see if media player is playing 
-mimic='en_US/vctk_low#s5' ## mimic3 voice
+mimic='en_US/vctk_low#s5' ## mimic3 voice 'pip3 install mycroft-mimic3-tts[all] ' and voices downloaded from ' git clone https://huggingface.co/mukowaty/mimic3-voices '
+
 hour=$(/usr/bin/date +%H)
 day_of_week=$(/usr/bin/date +%u)
 r_line=$((1 + $RANDOM % 49))   #### random line selector for speech files
