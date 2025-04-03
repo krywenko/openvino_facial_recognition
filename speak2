@@ -1,5 +1,5 @@
 #!/bin/bash
-API="API_key"
+API="API_key"  ##eleven_lab API
 #voice="TxGEqnHWrfWFTfGW9XjX"   #josh
 voice="LcfcDJNUP1GQjkzn1xUU"  #laura
 mkdir voice/$voice
