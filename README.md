@@ -36,3 +36,5 @@ speak2 is my elevelabs  speech file it will cache elevenlab speech file and then
 it points to my openwrtAI program for ai listening  when some enters the room. but you can point it other apps if you like
 
 also for the speak elevenlabs app you need to create a voice folder..  but you can pre-test with ./speak2 " hello there"  and see if you get any errors
+
+in your text speach event I use XXXXX as  the denoter for using  the name of the person seen.  " Ie good morning XXXXX  and if the person seen is "paul then it will say "good morning Paul "
